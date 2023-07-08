@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+body{
+    background-color: #edf1fd;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+    justify-content: space-between;
+
+}
+
+ul li{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+button{
+    background-color: rgb(18, 155,155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: 900;
+    width: fit-content;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    width: 100%;
+    padding: 20px;
+}
+ul {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    gap: 20px;
+
+}
+.left-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    /* width: 40%; */
+}
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+input{
+    padding: 5px;
+    font-size: 15px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 30px;
+}
+p span{
+    color: rgb(18, 155,155);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+section div p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+section div h1{
+    font-weight: bolder;
+    padding-bottom:20px ;
+    font-size: 30px;
+}
+div h1 span{
+    color: rgb(18, 155,155);
+
+}
+
